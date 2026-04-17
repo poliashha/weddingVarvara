@@ -67,6 +67,7 @@ document.querySelectorAll('input[name="presence"]').forEach((radio) => {
 
 const button = document.querySelector(".button");
 button.addEventListener("touchstart", function (e) {
+  e.preventDefault(); 
   this.classList.add("touch-pressed");
 });
 
