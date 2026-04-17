@@ -128,6 +128,10 @@ html {
   background-color: #ece2cc;
 }
 
+.map-button.touch-pressed{
+  background-color: #9e9480;
+}
+
 .reference {
   text-decoration: none;
   padding: 5px 90px;
