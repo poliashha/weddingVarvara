@@ -1,0 +1,431 @@
+html {
+  background-color: var(--bg-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  max-width: 412px;
+  margin: auto;
+  max-height: 359px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-image: url(../img/first.svg);
+  aspect-ratio: 413 / 359;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 27px;
+}
+
+.kursiv {
+  font-family: var(--kursiv-text);
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+}
+
+.position-text {
+  position: absolute;
+  font-size: 81px;
+}
+
+.medium-position {
+  padding-top: 61px;
+}
+
+.bottom-position {
+  margin-top: -30px;
+}
+
+.date-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.text {
+  font-family: var(--main-font);
+  font-size: 24px;
+  text-align: center;
+}
+
+.date-text {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.line {
+  width: 1px;
+  height: 32px;
+  background-color: white;
+}
+
+.pape {
+  margin-top: -145px;
+  margin-bottom: -60px;
+  z-index: 3;
+}
+
+.papeflower {
+  margin: 0 -47px;
+  margin-bottom: -120px;
+  z-index: 3;
+}
+
+.body {
+  max-width: 412px;
+  margin: auto;
+}
+
+.green {
+  background-color: var(--bg-green);
+  margin-top: -115px;
+  padding: 0 42px;
+  color: var(--color-text-green);
+
+  gap: 29px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.guests-text {
+  margin-top: -19px;
+}
+
+.tetx-kursiv {
+  color: #ede2b8;
+}
+
+.padding-text {
+  padding-top: 95px;
+}
+
+.map-button {
+  font-variant: all-small-caps;
+  color: black;
+  border-radius: 29px;
+  border: none;
+  font-family: var(--main-font);
+  width: 298px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #ece2cc;
+}
+
+.reference {
+  text-decoration: none;
+  padding: 5px 90px;
+}
+
+.time {
+  margin-top: -60px;
+}
+
+.white {
+  color: var(--color-text-brown);
+}
+
+.dresscode {
+  gap: 29px;
+  padding: 0 27px;
+}
+
+.piple {
+  margin-top: -27px;
+}
+
+.papeonly {
+  z-index: 3;
+  margin-top: -60px;
+  margin-bottom: -22px;
+}
+
+.wishes {
+  gap: 29px;
+}
+.detals{
+  padding-bottom: 50px;
+}
+
+.down {
+  margin-top: -108px;
+  padding-bottom: 105px;
+}
+
+.papewishes {
+  margin-top: -135px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: -48px;
+  padding: 0 30px;
+  color: var(--color-text-brown);
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: auto;
+  transition: height 0.3s ease;
+  padding: 0 20px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+.custom-radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-circle {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--color-text-brown);
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.15s;
+  position: relative;
+}
+
+.input {
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid var(--color-text-brown);
+  background-color: transparent;
+  max-width: 330px;
+  width: 100%;
+  height: 29px;
+  margin-top: 9px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  outline: none;
+  transition: 0.3s all ease;
+}
+
+.input:focus{
+  border:1px solid var(--color-text-brown);
+}
+
+.input::placeholder{
+  color: var(--color-text-brown);
+  margin-left: -7px;
+}
+
+.custom-radio:hover .radio-circle {
+  border-color: var(--color-text-brown);
+}
+
+.custom-radio input[type="radio"]:checked + .radio-circle {
+  border-color: var(--color-text-brown);
+  background: var(--color-text-brown);
+}
+
+.radio-text {
+  text-align: left;
+  font-size: 20px;
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.checkbox__input {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-text-brown);
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  outline: none;
+  border-radius: 0;
+}
+
+.checkbox__input:checked::after {
+  content: "✓";
+  font-size: 12px;
+}
+
+.button {
+  max-width: 296px;
+  width: 100%;
+  transition: all 0.3s ease;
+  
+  justify-self: center;
+  align-self: center;
+  font-family: var(--main-font);
+  background-color: transparent;
+  border: 1px solid var(--color-text-brown);
+  font-size: 20px;
+}
+
+.button.touch-pressed {
+  background-color: var(--color-text-brown);
+  color: var(--bg-color);
+}
+
+.anketa{
+  color: var(--color-text-brown);
+  padding: 0 40px;
+  
+}
+
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--color-text-brown);
+    color: var(--bg-color);
+  }
+}
+
+.form-send {
+  text-align: center;
+}
+
+.error-text {
+  display: none;
+}
+
+.error-text.show {
+  display: block;
+  animation: show 0.3s ease;
+}
+
+.radio-error {
+  display: none;
+  text-align: left;
+  font-size: 16px;
+  font-family: var(--main-font);
+}
+
+.radio-error.show {
+  display: block;
+  animation: show 0.3s ease;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.varints-text {
+  padding-bottom: 5px;
+}
+
+.varints {
+  padding-bottom: 13px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.custom-radio {
+  font-size: 18px;
+  text-align: left;
+}
+
+.checkbox {
+  font-size: 20px;
+}
+
+.error-icon {
+  font-size: 16px;
+}
+
+.text-input{
+  font-family: var(--main-font);
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: var(--main-font);
+}
+
+.footer-text{
+  font-size: 55px;
+}
+
+.collage-img{
+  padding: 20px 0 27px;
+}
+
+
+@media (width<412px) {
+  .pape-img {
+    max-width: 412px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 412 / 202;
+  }
+
+  .papeflower-img {
+    max-width: 412px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 412 / 229;
+  }
+
+  .time-img {
+    max-width: 412px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 412 / 586;
+  }
+
+  .circle-img {
+    max-width: 358px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 358 / 64;
+    margin: 0 -27px;
+  }
+
+  .papeonly-img {
+    max-width: 412px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 412 / 166;
+  }
+}
