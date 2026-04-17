@@ -400,6 +400,10 @@ html {
   padding: 20px 0 27px;
 }
 
+.timing{
+  color: var(--bg-color);
+}
+
 
 @media (width<412px) {
   .pape-img {
