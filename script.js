@@ -68,7 +68,7 @@ document.querySelectorAll('input[name="presence"]').forEach((radio) => {
 const button = document.querySelector(".button");
 const mapbutton = document.querySelector(".map-button");
 button.addEventListener("touchstart", function (e) {
-  e.preventDefault(); 
+  
   this.classList.add("touch-pressed");
 });
 
@@ -76,7 +76,7 @@ button.addEventListener("touchend", function (e) {
   this.classList.remove("touch-pressed");
 });
 mapbutton.addEventListener("touchstart", function (e) {
-  e.preventDefault();
+  
   this.classList.add("touch-pressed");
 });
 
