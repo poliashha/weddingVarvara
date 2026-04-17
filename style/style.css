@@ -99,7 +99,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
+  max-width: 412px;
 }
 
 .body {
@@ -419,8 +419,7 @@ html {
   .time-img {
     max-width: 412px;
     width: 100%;
-    height: auto;
-    aspect-ratio: 412 / 586;
+   
   }
 
   .circle-img {
