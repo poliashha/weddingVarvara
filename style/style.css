@@ -416,7 +416,6 @@ html {
     aspect-ratio: 412 / 229;
   }
 
-
   .circle-img {
     max-width: 358px;
     width: 100%;
@@ -430,5 +429,13 @@ html {
     width: 100%;
     height: auto;
     aspect-ratio: 412 / 166;
+  }
+}
+
+@media (width<390px){
+  .time-img {
+    max-width: 412px;
+    width: 100%;
+   
   }
 }
