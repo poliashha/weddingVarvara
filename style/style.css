@@ -197,7 +197,7 @@ html {
   gap: 16px;
   height: auto;
   transition: height 0.3s ease;
-  padding: 0 20px;
+  
 }
 
 .radio {
@@ -293,7 +293,7 @@ html {
 }
 
 .button {
-  max-width: 296px;
+  max-width: 320px;
   width: 100%;
   transition: all 0.3s ease;
   padding: 2px 0;
